@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: iron-front-x-multiplayer
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
